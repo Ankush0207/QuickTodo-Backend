@@ -4,8 +4,10 @@
   "description": "QuickTodo is a minimalistic todo application that allows users to add, edit, and delete tasks. Built with the MERN stack, it provides an easy and efficient way to manage daily tasks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
+ 
   "author": "ankush kuamr",
   "license": "ISC",
   "dependencies": {
